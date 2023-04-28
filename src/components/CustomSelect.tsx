@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "@emotion/styled";
+import ChevronDown from "./icons/ChevronDown";
 
 const Dropdown = styled.div`
   position: relative;
@@ -20,20 +21,8 @@ const DropdownButton = styled.button`
 	font-size: 14px;
 `;
 
-const ChevronDown = () => (
-	<svg
-		width="20"
-		height="20"
-		xmlns="http://www.w3.org/2000/svg"
-		viewBox="0 0 20 20"
-		fill="currentColor"
-	>
-		<path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
-	</svg>
-);
-
-const DropdownContent = styled.div`
-  display: ${({ isOpen }: { isOpen: boolean }) => (isOpen ? "block" : "none")};
+const DropdownContent = styled.div<{ isOpen: boolean }>`
+  display: ${({ isOpen }) => (isOpen ? "block" : "none")};
   position: absolute;
   background-color: #fff;
   min-width: 100%;

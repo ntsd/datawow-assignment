@@ -2,45 +2,29 @@ import React, { useState } from "react";
 import styled from "@emotion/styled";
 import { type Todo } from "../types";
 import { useTodos } from "../hooks/useTodos";
+import CustomCheckbox from "./CustomCheckbox";
+import TodoItemContainer from "../styles/TodoItemContainer";
+import TodoInput from "../styles/TodoInput";
+import ThreeDots from "./icons/ThreeDots";
 
-
-interface TodoItemProps {
-	todo: Todo;
-}
-
-const TodoItemContainer = styled.div`
-  background-color: #fff;
-	padding: 0.5rem 1rem;
-	box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-	height: 46px;
-  border-radius: 99rem;
-`;
-
-const Title = styled.span`
+const Title = styled.span<{ completed: boolean }>`
 	flex-grow: 1;
-	padding-left: 1rem;
 	cursor: pointer;
+	overflow-x: hidden;
 
-	${({ completed }: { completed: boolean }) => (completed && `
+	${({ completed }) => (completed && `
 		text-decoration-line: line-through;
 		color: #A9A9A9;
   `)};
 `
-
-const Checkbox = styled.input`
-  cursor: pointer;
-`;
 
 const ThreeDotMenu = styled.div`
   cursor: pointer;
   position: relative;
 `;
 
-const Menu = styled.ul`
-	display: ${({ visible }: { visible: boolean }) => (visible ? "block" : "none")};
+const Menu = styled.ul<{ visible: boolean }>`
+	display: ${({ visible }) => (visible ? "block" : "none")};
   position: absolute;
   background-color: #fff;
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
@@ -60,33 +44,6 @@ const MenuItem = styled.li`
   cursor: pointer;
 `;
 
-const ThreeDotsIcon = () => (
-	<svg
-		width="18"
-		height="10"
-		viewBox="0 0 18 4"
-		fill="currentColor"
-		xmlns="http://www.w3.org/2000/svg"
-	>
-		<circle cx="2" cy="2" r="2" />
-		<circle cx="9" cy="2" r="2" />
-		<circle cx="16" cy="2" r="2" />
-	</svg>
-);
-
-const Input = styled.input`
-	width: 100%;
-	border: none;
-
-  &:focus {
-    outline: none;
-    box-shadow: none;
-  }
-
-	::placeholder {
-		color: #BCBCBC;
-	}
-`;
 
 const SaveButton = styled.button`
 	background: #585292;
@@ -101,7 +58,7 @@ const SaveButton = styled.button`
   cursor: pointer;
 `
 
-const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
+const TodoItem: React.FC<{ todo: Todo }> = ({ todo }) => {
 	const { editTodo, deleteTodo, completeTodo } = useTodos();
 
 	const [editing, setEditing] = useState(false);
@@ -134,7 +91,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
 		<>
 			{editing ? (
 				<TodoItemContainer>
-					<Input
+					<TodoInput
 						type="text"
 						value={newTitle}
 						onChange={(e) => setNewTitle(e.target.value)}
@@ -143,14 +100,13 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
 				</TodoItemContainer>
 			) : (
 				<TodoItemContainer>
-					<Checkbox
-						type="checkbox"
+					<CustomCheckbox
 						checked={todo.completed}
-						onChange={handleToggle}
-					/>
+						onClick={handleToggle}
+					>✓</CustomCheckbox>
 					<Title onClick={handleToggle} completed={todo.completed}>{todo.title}</Title>
 					<ThreeDotMenu onClick={toggleMenu}>
-						<ThreeDotsIcon />
+						<ThreeDots />
 						<Menu visible={menuVisible}>
 							<MenuItem onClick={handleEdit}>Edit</MenuItem>
 							<MenuItem onClick={handleDelete} style={{ color: '#E07C7C' }}>Delete</MenuItem>

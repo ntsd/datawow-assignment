@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import { useTodos } from "../hooks/useTodos";
 import TodoItem from "./TodoItem";
-import AddTodo from "./AddTodo";
+import AddTodoBar from "./AddTodoBar";
 import FilterBar from "./FilterBar";
 
 const FlexCol = styled.div`
@@ -24,7 +24,7 @@ const TodoItemList: React.FC = () => {
 					todo={todo}
 				/>
 			))}
-		<AddTodo />
+		<AddTodoBar />
 	</FlexCol>
 }
 

@@ -14,18 +14,19 @@ const ProgressContainer = styled.div`
 	padding: 1rem;
 `
 
-const ProgressBarContainer = styled.div`
+const ProgressBar = styled.div`
   background-color: #3b3b3b;
   border-radius: 0.5rem;
   height: 0.5rem;
   box-sizing: border-box;
 `;
 
-const FilledBar = styled.div`
+const FilledBar = styled.div<{ percent: number }>`
   background-color: #fff;
   border-radius: 0.5rem;
   height: 100%;
   transition: width 0.5s ease-in-out;
+	width: ${({ percent }) => `${percent}%`};
 `;
 
 const Title = styled.span`
@@ -52,9 +53,9 @@ const Progress: React.FC = () => {
 
 	return <ProgressContainer>
 		<Title>Progress</Title>
-		<ProgressBarContainer>
-			<FilledBar style={{ width: `${progress().percent}%` }} />
-		</ProgressBarContainer>
+		<ProgressBar>
+			<FilledBar percent={progress().percent} />
+		</ProgressBar>
 		<CompletedTxet>
 			{progress().completed} completed
 		</CompletedTxet>
