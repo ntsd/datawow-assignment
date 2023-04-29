@@ -1,0 +1,3711 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`snapshot AddTodoBar 1`] = `
+[
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-11rgiw7{background-color:#fff;padding:0.5rem 1rem;box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;height:46px;border-radius:99rem;-webkit-column-gap:1rem;column-gap:1rem;}",
+      }
+    }
+    data-emotion="css 11rgiw7"
+  />,
+  <div
+    className="css-11rgiw7"
+  >
+    <form
+      onSubmit={[Function]}
+      style={
+        {
+          "width": "100%",
+        }
+      }
+    >
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-gzr0dl{width:100%;border:none;}.css-gzr0dl:focus{outline:none;box-shadow:none;}.css-gzr0dl::-webkit-input-placeholder{color:#bcbcbc;}.css-gzr0dl::-moz-placeholder{color:#bcbcbc;}.css-gzr0dl:-ms-input-placeholder{color:#bcbcbc;}.css-gzr0dl::placeholder{color:#bcbcbc;}",
+          }
+        }
+        data-emotion="css gzr0dl"
+      />
+      <input
+        className="css-gzr0dl"
+        onChange={[Function]}
+        placeholder="Add your todo..."
+        type="text"
+        value=""
+      />
+    </form>
+  </div>,
+]
+`;
+
+exports[`snapshot CustomSelect 1`] = `
+[
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-1dgld9d{position:relative;display:inline-block;}",
+      }
+    }
+    data-emotion="css 1dgld9d"
+  />,
+  <div
+    className="css-1dgld9d"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-19pghv2{background-color:#fff;width:6rem;padding:0.5rem 1rem;border:none;border-radius:0.5rem;cursor:pointer;text-transform:capitalize;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:14px;}",
+        }
+      }
+      data-emotion="css 19pghv2"
+    />
+    <button
+      className="css-19pghv2"
+      onClick={[Function]}
+    >
+      <span>
+        foo
+      </span>
+      <svg
+        fill="currentColor"
+        height="20"
+        viewBox="0 0 20 20"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </button>
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-imrkkv{display:none;position:absolute;background-color:#fff;min-width:100%;z-index:1;text-transform:capitalize;margin-top:0.5rem;padding:0.5rem;border-radius:0.5rem;box-sizing:border-box;box-shadow:0px 0px 8px rgba(0, 0, 0, 0.1);z-index:2;}",
+        }
+      }
+      data-emotion="css imrkkv"
+    />
+    <div
+      className="css-imrkkv"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-1vkl7vc{padding:0.5rem 1rem;border-radius:0.5rem;font-size:14px;line-height:16px;cursor:pointer;}.css-1vkl7vc:hover{background-color:#585292;color:#fff;}",
+          }
+        }
+        data-emotion="css 1vkl7vc"
+      />
+      <div
+        className="css-1vkl7vc"
+        onClick={[Function]}
+      >
+        foo
+      </div>
+      <div
+        className="css-1vkl7vc"
+        onClick={[Function]}
+      >
+        bar
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`snapshot FilterBar 1`] = `
+[
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-10ggl9s{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}",
+      }
+    }
+    data-emotion="css 10ggl9s"
+  />,
+  <div
+    className="css-10ggl9s"
+  >
+    <h2>
+      Tasks
+    </h2>
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-1dgld9d{position:relative;display:inline-block;}",
+        }
+      }
+      data-emotion="css 1dgld9d"
+    />
+    <div
+      className="css-1dgld9d"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-19pghv2{background-color:#fff;width:6rem;padding:0.5rem 1rem;border:none;border-radius:0.5rem;cursor:pointer;text-transform:capitalize;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:14px;}",
+          }
+        }
+        data-emotion="css 19pghv2"
+      />
+      <button
+        className="css-19pghv2"
+        onClick={[Function]}
+      >
+        <span>
+          all
+        </span>
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </button>
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-imrkkv{display:none;position:absolute;background-color:#fff;min-width:100%;z-index:1;text-transform:capitalize;margin-top:0.5rem;padding:0.5rem;border-radius:0.5rem;box-sizing:border-box;box-shadow:0px 0px 8px rgba(0, 0, 0, 0.1);z-index:2;}",
+          }
+        }
+        data-emotion="css imrkkv"
+      />
+      <div
+        className="css-imrkkv"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            {
+              "__html": ".css-1vkl7vc{padding:0.5rem 1rem;border-radius:0.5rem;font-size:14px;line-height:16px;cursor:pointer;}.css-1vkl7vc:hover{background-color:#585292;color:#fff;}",
+            }
+          }
+          data-emotion="css 1vkl7vc"
+        />
+        <div
+          className="css-1vkl7vc"
+          onClick={[Function]}
+        >
+          all
+        </div>
+        <div
+          className="css-1vkl7vc"
+          onClick={[Function]}
+        >
+          done
+        </div>
+        <div
+          className="css-1vkl7vc"
+          onClick={[Function]}
+        >
+          undone
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`snapshot Progress 1`] = `
+[
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-um2mci{width:100%;background-color:#e07c7c;color:#fff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;row-gap:1rem;box-sizing:border-box;border-radius:1rem;padding:1rem;}",
+      }
+    }
+    data-emotion="css um2mci"
+  />,
+  <div
+    className="css-um2mci"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-1rwnwnb{font-weight:500;font-size:28px;line-height:33px;}",
+        }
+      }
+      data-emotion="css 1rwnwnb"
+    />
+    <span
+      className="css-1rwnwnb"
+    >
+      Progress
+    </span>
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-13lciwd{background-color:#3b3b3b;border-radius:0.5rem;height:0.5rem;box-sizing:border-box;}",
+        }
+      }
+      data-emotion="css 13lciwd"
+    />
+    <div
+      className="css-13lciwd"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-jq8t1e{background-color:#fff;border-radius:0.5rem;height:100%;-webkit-transition:width 0.5s ease-in-out;transition:width 0.5s ease-in-out;width:NaN%;}",
+          }
+        }
+        data-emotion="css jq8t1e"
+      />
+      <div
+        className="css-jq8t1e"
+      />
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-m2oiku{color:#EBB9B8;}",
+        }
+      }
+      data-emotion="css m2oiku"
+    />
+    <span
+      className="css-m2oiku"
+    >
+      0
+       completed
+    </span>
+  </div>,
+]
+`;
+
+exports[`snapshot TodoItem 1`] = `
+[
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-11rgiw7{background-color:#fff;padding:0.5rem 1rem;box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;height:46px;border-radius:99rem;-webkit-column-gap:1rem;column-gap:1rem;}",
+      }
+    }
+    data-emotion="css 11rgiw7"
+  />,
+  <div
+    className="css-11rgiw7"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-1j4k4u4{display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;width:22px;height:22px;background-color:transparent;border:2px solid #585292;border-radius:3px;cursor:pointer;color:transparent;font-weight:bold;line-height:22px;text-align:center;}",
+        }
+      }
+      data-emotion="css 1j4k4u4"
+    />
+    <div
+      checked={false}
+      className="css-1j4k4u4"
+      onClick={[Function]}
+    >
+      ✓
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-egh926{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;cursor:pointer;overflow-x:hidden;}",
+        }
+      }
+      data-emotion="css egh926"
+    />
+    <span
+      className="css-egh926"
+      onClick={[Function]}
+    >
+      bar
+    </span>
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-xgmf6d{cursor:pointer;position:relative;}",
+        }
+      }
+      data-emotion="css xgmf6d"
+    />
+    <div
+      className="css-xgmf6d"
+      onClick={[Function]}
+    >
+      <svg
+        fill="currentColor"
+        height="10"
+        viewBox="0 0 18 4"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="2"
+          cy="2"
+          r="2"
+        />
+        <circle
+          cx="9"
+          cy="2"
+          r="2"
+        />
+        <circle
+          cx="16"
+          cy="2"
+          r="2"
+        />
+      </svg>
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-d3svgb{display:none;position:absolute;background-color:#fff;box-shadow:0px 0px 8px rgba(0, 0, 0, 0.1);border-radius:0.5rem;padding:0.5rem 0;list-style:none;right:0;width:111px;z-index:1;}",
+          }
+        }
+        data-emotion="css d3svgb"
+      />
+      <ul
+        className="css-d3svgb"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            {
+              "__html": ".css-12dpu2n{padding:0.5rem 1rem;border-radius:0.5rem;font-size:14px;line-height:16px;cursor:pointer;}",
+            }
+          }
+          data-emotion="css 12dpu2n"
+        />
+        <li
+          className="css-12dpu2n"
+          onClick={[Function]}
+        >
+          Edit
+        </li>
+        <li
+          className="css-12dpu2n"
+          onClick={[Function]}
+          style={
+            {
+              "color": "#E07C7C",
+            }
+          }
+        >
+          Delete
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`snapshot TodoItemList 1`] = `
+[
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-rqd9zx{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;row-gap:1rem;}",
+      }
+    }
+    data-emotion="css rqd9zx"
+  />,
+  <div
+    className="css-rqd9zx"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-10ggl9s{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}",
+        }
+      }
+      data-emotion="css 10ggl9s"
+    />
+    <div
+      className="css-10ggl9s"
+    >
+      <h2>
+        Tasks
+      </h2>
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-1dgld9d{position:relative;display:inline-block;}",
+          }
+        }
+        data-emotion="css 1dgld9d"
+      />
+      <div
+        className="css-1dgld9d"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            {
+              "__html": ".css-19pghv2{background-color:#fff;width:6rem;padding:0.5rem 1rem;border:none;border-radius:0.5rem;cursor:pointer;text-transform:capitalize;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:14px;}",
+            }
+          }
+          data-emotion="css 19pghv2"
+        />
+        <button
+          className="css-19pghv2"
+          onClick={[Function]}
+        >
+          <span>
+            all
+          </span>
+          <svg
+            fill="currentColor"
+            height="20"
+            viewBox="0 0 20 20"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </button>
+        <style
+          dangerouslySetInnerHTML={
+            {
+              "__html": ".css-imrkkv{display:none;position:absolute;background-color:#fff;min-width:100%;z-index:1;text-transform:capitalize;margin-top:0.5rem;padding:0.5rem;border-radius:0.5rem;box-sizing:border-box;box-shadow:0px 0px 8px rgba(0, 0, 0, 0.1);z-index:2;}",
+            }
+          }
+          data-emotion="css imrkkv"
+        />
+        <div
+          className="css-imrkkv"
+        >
+          <style
+            dangerouslySetInnerHTML={
+              {
+                "__html": ".css-1vkl7vc{padding:0.5rem 1rem;border-radius:0.5rem;font-size:14px;line-height:16px;cursor:pointer;}.css-1vkl7vc:hover{background-color:#585292;color:#fff;}",
+              }
+            }
+            data-emotion="css 1vkl7vc"
+          />
+          <div
+            className="css-1vkl7vc"
+            onClick={[Function]}
+          >
+            all
+          </div>
+          <div
+            className="css-1vkl7vc"
+            onClick={[Function]}
+          >
+            done
+          </div>
+          <div
+            className="css-1vkl7vc"
+            onClick={[Function]}
+          >
+            undone
+          </div>
+        </div>
+      </div>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-11rgiw7{background-color:#fff;padding:0.5rem 1rem;box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;height:46px;border-radius:99rem;-webkit-column-gap:1rem;column-gap:1rem;}",
+        }
+      }
+      data-emotion="css 11rgiw7"
+    />
+    <div
+      className="css-11rgiw7"
+    >
+      <form
+        onSubmit={[Function]}
+        style={
+          {
+            "width": "100%",
+          }
+        }
+      >
+        <style
+          dangerouslySetInnerHTML={
+            {
+              "__html": ".css-gzr0dl{width:100%;border:none;}.css-gzr0dl:focus{outline:none;box-shadow:none;}.css-gzr0dl::-webkit-input-placeholder{color:#bcbcbc;}.css-gzr0dl::-moz-placeholder{color:#bcbcbc;}.css-gzr0dl:-ms-input-placeholder{color:#bcbcbc;}.css-gzr0dl::placeholder{color:#bcbcbc;}",
+            }
+          }
+          data-emotion="css gzr0dl"
+        />
+        <input
+          className="css-gzr0dl"
+          onChange={[Function]}
+          placeholder="Add your todo..."
+          type="text"
+          value=""
+        />
+      </form>
+    </div>
+  </div>,
+]
+`;
+
+exports[`snapshot TodoPage 1`] = `
+[
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-eio36f{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:1rem;row-gap:1rem;}@media (min-width: 425px){.css-eio36f{padding:1rem;}}@media (min-width: 768px){.css-eio36f{padding:2rem;}}@media (min-width: 1024px){.css-eio36f{padding:3rem 4rem;row-gap:2rem;}}",
+      }
+    }
+    data-emotion="css eio36f"
+  />,
+  <div
+    className="css-eio36f"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-um2mci{width:100%;background-color:#e07c7c;color:#fff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;row-gap:1rem;box-sizing:border-box;border-radius:1rem;padding:1rem;}",
+        }
+      }
+      data-emotion="css um2mci"
+    />
+    <div
+      className="css-um2mci"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-1rwnwnb{font-weight:500;font-size:28px;line-height:33px;}",
+          }
+        }
+        data-emotion="css 1rwnwnb"
+      />
+      <span
+        className="css-1rwnwnb"
+      >
+        Progress
+      </span>
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-13lciwd{background-color:#3b3b3b;border-radius:0.5rem;height:0.5rem;box-sizing:border-box;}",
+          }
+        }
+        data-emotion="css 13lciwd"
+      />
+      <div
+        className="css-13lciwd"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            {
+              "__html": ".css-jq8t1e{background-color:#fff;border-radius:0.5rem;height:100%;-webkit-transition:width 0.5s ease-in-out;transition:width 0.5s ease-in-out;width:NaN%;}",
+            }
+          }
+          data-emotion="css jq8t1e"
+        />
+        <div
+          className="css-jq8t1e"
+        />
+      </div>
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-m2oiku{color:#EBB9B8;}",
+          }
+        }
+        data-emotion="css m2oiku"
+      />
+      <span
+        className="css-m2oiku"
+      >
+        0
+         completed
+      </span>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        {
+          "__html": ".css-rqd9zx{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;row-gap:1rem;}",
+        }
+      }
+      data-emotion="css rqd9zx"
+    />
+    <div
+      className="css-rqd9zx"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-10ggl9s{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}",
+          }
+        }
+        data-emotion="css 10ggl9s"
+      />
+      <div
+        className="css-10ggl9s"
+      >
+        <h2>
+          Tasks
+        </h2>
+        <style
+          dangerouslySetInnerHTML={
+            {
+              "__html": ".css-1dgld9d{position:relative;display:inline-block;}",
+            }
+          }
+          data-emotion="css 1dgld9d"
+        />
+        <div
+          className="css-1dgld9d"
+        >
+          <style
+            dangerouslySetInnerHTML={
+              {
+                "__html": ".css-19pghv2{background-color:#fff;width:6rem;padding:0.5rem 1rem;border:none;border-radius:0.5rem;cursor:pointer;text-transform:capitalize;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:14px;}",
+              }
+            }
+            data-emotion="css 19pghv2"
+          />
+          <button
+            className="css-19pghv2"
+            onClick={[Function]}
+          >
+            <span>
+              all
+            </span>
+            <svg
+              fill="currentColor"
+              height="20"
+              viewBox="0 0 20 20"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </button>
+          <style
+            dangerouslySetInnerHTML={
+              {
+                "__html": ".css-imrkkv{display:none;position:absolute;background-color:#fff;min-width:100%;z-index:1;text-transform:capitalize;margin-top:0.5rem;padding:0.5rem;border-radius:0.5rem;box-sizing:border-box;box-shadow:0px 0px 8px rgba(0, 0, 0, 0.1);z-index:2;}",
+              }
+            }
+            data-emotion="css imrkkv"
+          />
+          <div
+            className="css-imrkkv"
+          >
+            <style
+              dangerouslySetInnerHTML={
+                {
+                  "__html": ".css-1vkl7vc{padding:0.5rem 1rem;border-radius:0.5rem;font-size:14px;line-height:16px;cursor:pointer;}.css-1vkl7vc:hover{background-color:#585292;color:#fff;}",
+                }
+              }
+              data-emotion="css 1vkl7vc"
+            />
+            <div
+              className="css-1vkl7vc"
+              onClick={[Function]}
+            >
+              all
+            </div>
+            <div
+              className="css-1vkl7vc"
+              onClick={[Function]}
+            >
+              done
+            </div>
+            <div
+              className="css-1vkl7vc"
+              onClick={[Function]}
+            >
+              undone
+            </div>
+          </div>
+        </div>
+      </div>
+      <style
+        dangerouslySetInnerHTML={
+          {
+            "__html": ".css-11rgiw7{background-color:#fff;padding:0.5rem 1rem;box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;height:46px;border-radius:99rem;-webkit-column-gap:1rem;column-gap:1rem;}",
+          }
+        }
+        data-emotion="css 11rgiw7"
+      />
+      <div
+        className="css-11rgiw7"
+      >
+        <form
+          onSubmit={[Function]}
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <style
+            dangerouslySetInnerHTML={
+              {
+                "__html": ".css-gzr0dl{width:100%;border:none;}.css-gzr0dl:focus{outline:none;box-shadow:none;}.css-gzr0dl::-webkit-input-placeholder{color:#bcbcbc;}.css-gzr0dl::-moz-placeholder{color:#bcbcbc;}.css-gzr0dl:-ms-input-placeholder{color:#bcbcbc;}.css-gzr0dl::placeholder{color:#bcbcbc;}",
+              }
+            }
+            data-emotion="css gzr0dl"
+          />
+          <input
+            className="css-gzr0dl"
+            onChange={[Function]}
+            placeholder="Add your todo..."
+            type="text"
+            value=""
+          />
+        </form>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`test CustomSelect 1`] = `
+{
+  "instance": null,
+  "nodeType": "component",
+  "props": {
+    "children": <CustomSelect
+      onChange={[Function]}
+      options={
+        [
+          "foo",
+          "bar",
+        ]
+      }
+      value="foo"
+    />,
+  },
+  "rendered": {
+    "instance": null,
+    "nodeType": "component",
+    "props": {
+      "children": <CustomSelect
+        onChange={[Function]}
+        options={
+          [
+            "foo",
+            "bar",
+          ]
+        }
+        value="foo"
+      />,
+    },
+    "rendered": [
+      {
+        "instance": null,
+        "nodeType": "component",
+        "props": {
+          "setNotifyBatcherOfChange": [Function],
+        },
+        "rendered": null,
+        "type": [Function],
+      },
+      {
+        "instance": null,
+        "nodeType": "component",
+        "props": {
+          "onChange": [Function],
+          "options": [
+            "foo",
+            "bar",
+          ],
+          "value": "foo",
+        },
+        "rendered": {
+          "instance": null,
+          "nodeType": "component",
+          "props": {
+            "children": [
+              <Styled(button)
+                onClick={[Function]}
+              >
+                <span>
+                  foo
+                </span>
+                <ChevronDown />
+              </Styled(button)>,
+              <Styled(div)
+                isOpen={false}
+              >
+                <Styled(div)
+                  onClick={[Function]}
+                >
+                  foo
+                </Styled(div)>
+                <Styled(div)
+                  onClick={[Function]}
+                >
+                  bar
+                </Styled(div)>
+              </Styled(div)>,
+            ],
+          },
+          "rendered": [
+            {
+              "instance": null,
+              "nodeType": "component",
+              "props": {
+                "cache": {
+                  "insert": [Function],
+                  "inserted": {
+                    "19pghv2": true,
+                    "1dgld9d": true,
+                    "1vkl7vc": true,
+                    "imrkkv": true,
+                  },
+                  "key": "css",
+                  "nonce": undefined,
+                  "registered": {},
+                  "sheet": StyleSheet {
+                    "_insertTag": [Function],
+                    "before": null,
+                    "container": undefined,
+                    "ctr": 0,
+                    "insertionPoint": undefined,
+                    "isSpeedy": false,
+                    "key": "css",
+                    "nonce": undefined,
+                    "prepend": undefined,
+                    "tags": [],
+                  },
+                },
+                "isStringTag": true,
+                "serialized": {
+                  "map": undefined,
+                  "name": "1dgld9d",
+                  "next": undefined,
+                  "styles": "
+  position: relative;
+  display: inline-block;
+",
+                  "toString": [Function],
+                },
+              },
+              "rendered": {
+                "instance": null,
+                "nodeType": "host",
+                "props": {
+                  "dangerouslySetInnerHTML": {
+                    "__html": ".css-1dgld9d{position:relative;display:inline-block;}",
+                  },
+                  "data-emotion": "css 1dgld9d",
+                  "nonce": undefined,
+                },
+                "rendered": [],
+                "type": "style",
+              },
+              "type": [Function],
+            },
+            {
+              "instance": null,
+              "nodeType": "host",
+              "props": {
+                "children": [
+                  <Styled(button)
+                    onClick={[Function]}
+                  >
+                    <span>
+                      foo
+                    </span>
+                    <ChevronDown />
+                  </Styled(button)>,
+                  <Styled(div)
+                    isOpen={false}
+                  >
+                    <Styled(div)
+                      onClick={[Function]}
+                    >
+                      foo
+                    </Styled(div)>
+                    <Styled(div)
+                      onClick={[Function]}
+                    >
+                      bar
+                    </Styled(div)>
+                  </Styled(div)>,
+                ],
+                "className": "css-1dgld9d",
+              },
+              "rendered": [
+                {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": {
+                    "children": [
+                      <span>
+                        foo
+                      </span>,
+                      <ChevronDown />,
+                    ],
+                    "onClick": [Function],
+                  },
+                  "rendered": [
+                    {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": {
+                        "cache": {
+                          "insert": [Function],
+                          "inserted": {
+                            "19pghv2": true,
+                            "1dgld9d": true,
+                            "1vkl7vc": true,
+                            "imrkkv": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": {},
+                          "sheet": StyleSheet {
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": undefined,
+                            "ctr": 0,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": [],
+                          },
+                        },
+                        "isStringTag": true,
+                        "serialized": {
+                          "map": undefined,
+                          "name": "19pghv2",
+                          "next": undefined,
+                          "styles": "
+  background-color: #fff;
+  width: 6rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	font-size: 14px;
+",
+                          "toString": [Function],
+                        },
+                      },
+                      "rendered": {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": {
+                          "dangerouslySetInnerHTML": {
+                            "__html": ".css-19pghv2{background-color:#fff;width:6rem;padding:0.5rem 1rem;border:none;border-radius:0.5rem;cursor:pointer;text-transform:capitalize;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:14px;}",
+                          },
+                          "data-emotion": "css 19pghv2",
+                          "nonce": undefined,
+                        },
+                        "rendered": [],
+                        "type": "style",
+                      },
+                      "type": [Function],
+                    },
+                    {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": {
+                        "children": [
+                          <span>
+                            foo
+                          </span>,
+                          <ChevronDown />,
+                        ],
+                        "className": "css-19pghv2",
+                        "onClick": [Function],
+                      },
+                      "rendered": [
+                        {
+                          "instance": null,
+                          "nodeType": "host",
+                          "props": {
+                            "children": "foo",
+                          },
+                          "rendered": [
+                            "foo",
+                          ],
+                          "type": "span",
+                        },
+                        {
+                          "instance": null,
+                          "nodeType": "component",
+                          "props": {},
+                          "rendered": {
+                            "instance": null,
+                            "nodeType": "host",
+                            "props": {
+                              "children": <path
+                                clipRule="evenodd"
+                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                fillRule="evenodd"
+                              />,
+                              "fill": "currentColor",
+                              "height": "20",
+                              "viewBox": "0 0 20 20",
+                              "width": "20",
+                              "xmlns": "http://www.w3.org/2000/svg",
+                            },
+                            "rendered": [
+                              {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "clipRule": "evenodd",
+                                  "d": "M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z",
+                                  "fillRule": "evenodd",
+                                },
+                                "rendered": [],
+                                "type": "path",
+                              },
+                            ],
+                            "type": "svg",
+                          },
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "button",
+                    },
+                  ],
+                  "type": [Function],
+                },
+                {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": {
+                    "children": [
+                      <Styled(div)
+                        onClick={[Function]}
+                      >
+                        foo
+                      </Styled(div)>,
+                      <Styled(div)
+                        onClick={[Function]}
+                      >
+                        bar
+                      </Styled(div)>,
+                    ],
+                    "isOpen": false,
+                  },
+                  "rendered": [
+                    {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": {
+                        "cache": {
+                          "insert": [Function],
+                          "inserted": {
+                            "19pghv2": true,
+                            "1dgld9d": true,
+                            "1vkl7vc": true,
+                            "imrkkv": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": {},
+                          "sheet": StyleSheet {
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": undefined,
+                            "ctr": 0,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": [],
+                          },
+                        },
+                        "isStringTag": true,
+                        "serialized": {
+                          "map": undefined,
+                          "name": "imrkkv",
+                          "next": undefined,
+                          "styles": "
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 100%;
+  z-index: 1;
+  text-transform: capitalize;
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+  border-radius: 0.5rem;
+	box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+	z-index: 2;
+",
+                          "toString": [Function],
+                        },
+                      },
+                      "rendered": {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": {
+                          "dangerouslySetInnerHTML": {
+                            "__html": ".css-imrkkv{display:none;position:absolute;background-color:#fff;min-width:100%;z-index:1;text-transform:capitalize;margin-top:0.5rem;padding:0.5rem;border-radius:0.5rem;box-sizing:border-box;box-shadow:0px 0px 8px rgba(0, 0, 0, 0.1);z-index:2;}",
+                          },
+                          "data-emotion": "css imrkkv",
+                          "nonce": undefined,
+                        },
+                        "rendered": [],
+                        "type": "style",
+                      },
+                      "type": [Function],
+                    },
+                    {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": {
+                        "children": [
+                          <Styled(div)
+                            onClick={[Function]}
+                          >
+                            foo
+                          </Styled(div)>,
+                          <Styled(div)
+                            onClick={[Function]}
+                          >
+                            bar
+                          </Styled(div)>,
+                        ],
+                        "className": "css-imrkkv",
+                      },
+                      "rendered": [
+                        {
+                          "instance": null,
+                          "nodeType": "component",
+                          "props": {
+                            "children": "foo",
+                            "onClick": [Function],
+                          },
+                          "rendered": [
+                            {
+                              "instance": null,
+                              "nodeType": "component",
+                              "props": {
+                                "cache": {
+                                  "insert": [Function],
+                                  "inserted": {
+                                    "19pghv2": true,
+                                    "1dgld9d": true,
+                                    "1vkl7vc": true,
+                                    "imrkkv": true,
+                                  },
+                                  "key": "css",
+                                  "nonce": undefined,
+                                  "registered": {},
+                                  "sheet": StyleSheet {
+                                    "_insertTag": [Function],
+                                    "before": null,
+                                    "container": undefined,
+                                    "ctr": 0,
+                                    "insertionPoint": undefined,
+                                    "isSpeedy": false,
+                                    "key": "css",
+                                    "nonce": undefined,
+                                    "prepend": undefined,
+                                    "tags": [],
+                                  },
+                                },
+                                "isStringTag": true,
+                                "serialized": {
+                                  "map": undefined,
+                                  "name": "1vkl7vc",
+                                  "next": undefined,
+                                  "styles": "
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+	font-size: 14px;
+	line-height: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #585292;
+		color: #fff;
+  }
+",
+                                  "toString": [Function],
+                                },
+                              },
+                              "rendered": {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "dangerouslySetInnerHTML": {
+                                    "__html": ".css-1vkl7vc{padding:0.5rem 1rem;border-radius:0.5rem;font-size:14px;line-height:16px;cursor:pointer;}.css-1vkl7vc:hover{background-color:#585292;color:#fff;}",
+                                  },
+                                  "data-emotion": "css 1vkl7vc",
+                                  "nonce": undefined,
+                                },
+                                "rendered": [],
+                                "type": "style",
+                              },
+                              "type": [Function],
+                            },
+                            {
+                              "instance": null,
+                              "nodeType": "host",
+                              "props": {
+                                "children": "foo",
+                                "className": "css-1vkl7vc",
+                                "onClick": [Function],
+                              },
+                              "rendered": [
+                                "foo",
+                              ],
+                              "type": "div",
+                            },
+                          ],
+                          "type": [Function],
+                        },
+                        {
+                          "instance": null,
+                          "nodeType": "component",
+                          "props": {
+                            "children": "bar",
+                            "onClick": [Function],
+                          },
+                          "rendered": [
+                            {
+                              "instance": null,
+                              "nodeType": "component",
+                              "props": {
+                                "cache": {
+                                  "insert": [Function],
+                                  "inserted": {
+                                    "19pghv2": true,
+                                    "1dgld9d": true,
+                                    "1vkl7vc": true,
+                                    "imrkkv": true,
+                                  },
+                                  "key": "css",
+                                  "nonce": undefined,
+                                  "registered": {},
+                                  "sheet": StyleSheet {
+                                    "_insertTag": [Function],
+                                    "before": null,
+                                    "container": undefined,
+                                    "ctr": 0,
+                                    "insertionPoint": undefined,
+                                    "isSpeedy": false,
+                                    "key": "css",
+                                    "nonce": undefined,
+                                    "prepend": undefined,
+                                    "tags": [],
+                                  },
+                                },
+                                "isStringTag": true,
+                                "serialized": {
+                                  "map": undefined,
+                                  "name": "1vkl7vc",
+                                  "next": undefined,
+                                  "styles": "
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+	font-size: 14px;
+	line-height: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #585292;
+		color: #fff;
+  }
+",
+                                  "toString": [Function],
+                                },
+                              },
+                              "rendered": null,
+                              "type": [Function],
+                            },
+                            {
+                              "instance": null,
+                              "nodeType": "host",
+                              "props": {
+                                "children": "bar",
+                                "className": "css-1vkl7vc",
+                                "onClick": [Function],
+                              },
+                              "rendered": [
+                                "bar",
+                              ],
+                              "type": "div",
+                            },
+                          ],
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;
+
+exports[`test CustomSelect 2`] = `
+{
+  "instance": null,
+  "nodeType": "component",
+  "props": {
+    "children": <CustomSelect
+      onChange={[Function]}
+      options={
+        [
+          "foo",
+          "bar",
+        ]
+      }
+      value="foo"
+    />,
+    "value": "bar",
+  },
+  "rendered": {
+    "instance": null,
+    "nodeType": "component",
+    "props": {
+      "children": <CustomSelect
+        onChange={[Function]}
+        options={
+          [
+            "foo",
+            "bar",
+          ]
+        }
+        value="foo"
+      />,
+    },
+    "rendered": [
+      {
+        "instance": null,
+        "nodeType": "component",
+        "props": {
+          "setNotifyBatcherOfChange": [Function],
+        },
+        "rendered": null,
+        "type": [Function],
+      },
+      {
+        "instance": null,
+        "nodeType": "component",
+        "props": {
+          "onChange": [Function],
+          "options": [
+            "foo",
+            "bar",
+          ],
+          "value": "foo",
+        },
+        "rendered": {
+          "instance": null,
+          "nodeType": "component",
+          "props": {
+            "children": [
+              <Styled(button)
+                onClick={[Function]}
+              >
+                <span>
+                  foo
+                </span>
+                <ChevronDown />
+              </Styled(button)>,
+              <Styled(div)
+                isOpen={false}
+              >
+                <Styled(div)
+                  onClick={[Function]}
+                >
+                  foo
+                </Styled(div)>
+                <Styled(div)
+                  onClick={[Function]}
+                >
+                  bar
+                </Styled(div)>
+              </Styled(div)>,
+            ],
+          },
+          "rendered": [
+            {
+              "instance": null,
+              "nodeType": "component",
+              "props": {
+                "cache": {
+                  "insert": [Function],
+                  "inserted": {
+                    "19pghv2": true,
+                    "1dgld9d": true,
+                    "1vkl7vc": true,
+                    "imrkkv": true,
+                  },
+                  "key": "css",
+                  "nonce": undefined,
+                  "registered": {},
+                  "sheet": StyleSheet {
+                    "_insertTag": [Function],
+                    "before": null,
+                    "container": undefined,
+                    "ctr": 0,
+                    "insertionPoint": undefined,
+                    "isSpeedy": false,
+                    "key": "css",
+                    "nonce": undefined,
+                    "prepend": undefined,
+                    "tags": [],
+                  },
+                },
+                "isStringTag": true,
+                "serialized": {
+                  "map": undefined,
+                  "name": "1dgld9d",
+                  "next": undefined,
+                  "styles": "
+  position: relative;
+  display: inline-block;
+",
+                  "toString": [Function],
+                },
+              },
+              "rendered": {
+                "instance": null,
+                "nodeType": "host",
+                "props": {
+                  "dangerouslySetInnerHTML": {
+                    "__html": ".css-1dgld9d{position:relative;display:inline-block;}",
+                  },
+                  "data-emotion": "css 1dgld9d",
+                  "nonce": undefined,
+                },
+                "rendered": [],
+                "type": "style",
+              },
+              "type": [Function],
+            },
+            {
+              "instance": null,
+              "nodeType": "host",
+              "props": {
+                "children": [
+                  <Styled(button)
+                    onClick={[Function]}
+                  >
+                    <span>
+                      foo
+                    </span>
+                    <ChevronDown />
+                  </Styled(button)>,
+                  <Styled(div)
+                    isOpen={false}
+                  >
+                    <Styled(div)
+                      onClick={[Function]}
+                    >
+                      foo
+                    </Styled(div)>
+                    <Styled(div)
+                      onClick={[Function]}
+                    >
+                      bar
+                    </Styled(div)>
+                  </Styled(div)>,
+                ],
+                "className": "css-1dgld9d",
+              },
+              "rendered": [
+                {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": {
+                    "children": [
+                      <span>
+                        foo
+                      </span>,
+                      <ChevronDown />,
+                    ],
+                    "onClick": [Function],
+                  },
+                  "rendered": [
+                    {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": {
+                        "cache": {
+                          "insert": [Function],
+                          "inserted": {
+                            "19pghv2": true,
+                            "1dgld9d": true,
+                            "1vkl7vc": true,
+                            "imrkkv": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": {},
+                          "sheet": StyleSheet {
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": undefined,
+                            "ctr": 0,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": [],
+                          },
+                        },
+                        "isStringTag": true,
+                        "serialized": {
+                          "map": undefined,
+                          "name": "19pghv2",
+                          "next": undefined,
+                          "styles": "
+  background-color: #fff;
+  width: 6rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	font-size: 14px;
+",
+                          "toString": [Function],
+                        },
+                      },
+                      "rendered": {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": {
+                          "dangerouslySetInnerHTML": {
+                            "__html": ".css-19pghv2{background-color:#fff;width:6rem;padding:0.5rem 1rem;border:none;border-radius:0.5rem;cursor:pointer;text-transform:capitalize;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:14px;}",
+                          },
+                          "data-emotion": "css 19pghv2",
+                          "nonce": undefined,
+                        },
+                        "rendered": [],
+                        "type": "style",
+                      },
+                      "type": [Function],
+                    },
+                    {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": {
+                        "children": [
+                          <span>
+                            foo
+                          </span>,
+                          <ChevronDown />,
+                        ],
+                        "className": "css-19pghv2",
+                        "onClick": [Function],
+                      },
+                      "rendered": [
+                        {
+                          "instance": null,
+                          "nodeType": "host",
+                          "props": {
+                            "children": "foo",
+                          },
+                          "rendered": [
+                            "foo",
+                          ],
+                          "type": "span",
+                        },
+                        {
+                          "instance": null,
+                          "nodeType": "component",
+                          "props": {},
+                          "rendered": {
+                            "instance": null,
+                            "nodeType": "host",
+                            "props": {
+                              "children": <path
+                                clipRule="evenodd"
+                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                fillRule="evenodd"
+                              />,
+                              "fill": "currentColor",
+                              "height": "20",
+                              "viewBox": "0 0 20 20",
+                              "width": "20",
+                              "xmlns": "http://www.w3.org/2000/svg",
+                            },
+                            "rendered": [
+                              {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "clipRule": "evenodd",
+                                  "d": "M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z",
+                                  "fillRule": "evenodd",
+                                },
+                                "rendered": [],
+                                "type": "path",
+                              },
+                            ],
+                            "type": "svg",
+                          },
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "button",
+                    },
+                  ],
+                  "type": [Function],
+                },
+                {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": {
+                    "children": [
+                      <Styled(div)
+                        onClick={[Function]}
+                      >
+                        foo
+                      </Styled(div)>,
+                      <Styled(div)
+                        onClick={[Function]}
+                      >
+                        bar
+                      </Styled(div)>,
+                    ],
+                    "isOpen": false,
+                  },
+                  "rendered": [
+                    {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": {
+                        "cache": {
+                          "insert": [Function],
+                          "inserted": {
+                            "19pghv2": true,
+                            "1dgld9d": true,
+                            "1vkl7vc": true,
+                            "imrkkv": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": {},
+                          "sheet": StyleSheet {
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": undefined,
+                            "ctr": 0,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": [],
+                          },
+                        },
+                        "isStringTag": true,
+                        "serialized": {
+                          "map": undefined,
+                          "name": "imrkkv",
+                          "next": undefined,
+                          "styles": "
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 100%;
+  z-index: 1;
+  text-transform: capitalize;
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+  border-radius: 0.5rem;
+	box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+	z-index: 2;
+",
+                          "toString": [Function],
+                        },
+                      },
+                      "rendered": {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": {
+                          "dangerouslySetInnerHTML": {
+                            "__html": ".css-imrkkv{display:none;position:absolute;background-color:#fff;min-width:100%;z-index:1;text-transform:capitalize;margin-top:0.5rem;padding:0.5rem;border-radius:0.5rem;box-sizing:border-box;box-shadow:0px 0px 8px rgba(0, 0, 0, 0.1);z-index:2;}",
+                          },
+                          "data-emotion": "css imrkkv",
+                          "nonce": undefined,
+                        },
+                        "rendered": [],
+                        "type": "style",
+                      },
+                      "type": [Function],
+                    },
+                    {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": {
+                        "children": [
+                          <Styled(div)
+                            onClick={[Function]}
+                          >
+                            foo
+                          </Styled(div)>,
+                          <Styled(div)
+                            onClick={[Function]}
+                          >
+                            bar
+                          </Styled(div)>,
+                        ],
+                        "className": "css-imrkkv",
+                      },
+                      "rendered": [
+                        {
+                          "instance": null,
+                          "nodeType": "component",
+                          "props": {
+                            "children": "foo",
+                            "onClick": [Function],
+                          },
+                          "rendered": [
+                            {
+                              "instance": null,
+                              "nodeType": "component",
+                              "props": {
+                                "cache": {
+                                  "insert": [Function],
+                                  "inserted": {
+                                    "19pghv2": true,
+                                    "1dgld9d": true,
+                                    "1vkl7vc": true,
+                                    "imrkkv": true,
+                                  },
+                                  "key": "css",
+                                  "nonce": undefined,
+                                  "registered": {},
+                                  "sheet": StyleSheet {
+                                    "_insertTag": [Function],
+                                    "before": null,
+                                    "container": undefined,
+                                    "ctr": 0,
+                                    "insertionPoint": undefined,
+                                    "isSpeedy": false,
+                                    "key": "css",
+                                    "nonce": undefined,
+                                    "prepend": undefined,
+                                    "tags": [],
+                                  },
+                                },
+                                "isStringTag": true,
+                                "serialized": {
+                                  "map": undefined,
+                                  "name": "1vkl7vc",
+                                  "next": undefined,
+                                  "styles": "
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+	font-size: 14px;
+	line-height: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #585292;
+		color: #fff;
+  }
+",
+                                  "toString": [Function],
+                                },
+                              },
+                              "rendered": {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "dangerouslySetInnerHTML": {
+                                    "__html": ".css-1vkl7vc{padding:0.5rem 1rem;border-radius:0.5rem;font-size:14px;line-height:16px;cursor:pointer;}.css-1vkl7vc:hover{background-color:#585292;color:#fff;}",
+                                  },
+                                  "data-emotion": "css 1vkl7vc",
+                                  "nonce": undefined,
+                                },
+                                "rendered": [],
+                                "type": "style",
+                              },
+                              "type": [Function],
+                            },
+                            {
+                              "instance": null,
+                              "nodeType": "host",
+                              "props": {
+                                "children": "foo",
+                                "className": "css-1vkl7vc",
+                                "onClick": [Function],
+                              },
+                              "rendered": [
+                                "foo",
+                              ],
+                              "type": "div",
+                            },
+                          ],
+                          "type": [Function],
+                        },
+                        {
+                          "instance": null,
+                          "nodeType": "component",
+                          "props": {
+                            "children": "bar",
+                            "onClick": [Function],
+                          },
+                          "rendered": [
+                            {
+                              "instance": null,
+                              "nodeType": "component",
+                              "props": {
+                                "cache": {
+                                  "insert": [Function],
+                                  "inserted": {
+                                    "19pghv2": true,
+                                    "1dgld9d": true,
+                                    "1vkl7vc": true,
+                                    "imrkkv": true,
+                                  },
+                                  "key": "css",
+                                  "nonce": undefined,
+                                  "registered": {},
+                                  "sheet": StyleSheet {
+                                    "_insertTag": [Function],
+                                    "before": null,
+                                    "container": undefined,
+                                    "ctr": 0,
+                                    "insertionPoint": undefined,
+                                    "isSpeedy": false,
+                                    "key": "css",
+                                    "nonce": undefined,
+                                    "prepend": undefined,
+                                    "tags": [],
+                                  },
+                                },
+                                "isStringTag": true,
+                                "serialized": {
+                                  "map": undefined,
+                                  "name": "1vkl7vc",
+                                  "next": undefined,
+                                  "styles": "
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+	font-size: 14px;
+	line-height: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #585292;
+		color: #fff;
+  }
+",
+                                  "toString": [Function],
+                                },
+                              },
+                              "rendered": null,
+                              "type": [Function],
+                            },
+                            {
+                              "instance": null,
+                              "nodeType": "host",
+                              "props": {
+                                "children": "bar",
+                                "className": "css-1vkl7vc",
+                                "onClick": [Function],
+                              },
+                              "rendered": [
+                                "bar",
+                              ],
+                              "type": "div",
+                            },
+                          ],
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;
+
+exports[`test TodoItem 1`] = `
+{
+  "instance": null,
+  "nodeType": "component",
+  "props": {
+    "children": <TodoItem
+      todo={
+        {
+          "completed": false,
+          "id": "foo",
+          "title": "bar",
+        }
+      }
+    />,
+  },
+  "rendered": {
+    "instance": null,
+    "nodeType": "component",
+    "props": {
+      "children": <TodoItem
+        todo={
+          {
+            "completed": false,
+            "id": "foo",
+            "title": "bar",
+          }
+        }
+      />,
+    },
+    "rendered": [
+      {
+        "instance": null,
+        "nodeType": "component",
+        "props": {
+          "setNotifyBatcherOfChange": [Function],
+        },
+        "rendered": null,
+        "type": [Function],
+      },
+      {
+        "instance": null,
+        "nodeType": "component",
+        "props": {
+          "todo": {
+            "completed": false,
+            "id": "foo",
+            "title": "bar",
+          },
+        },
+        "rendered": {
+          "instance": null,
+          "nodeType": "component",
+          "props": {
+            "children": [
+              <Styled(div)
+                checked={false}
+                onClick={[Function]}
+              >
+                ✓
+              </Styled(div)>,
+              <Styled(span)
+                completed={false}
+                onClick={[Function]}
+              >
+                bar
+              </Styled(span)>,
+              <Styled(div)
+                onClick={[Function]}
+              >
+                <ThreeDots />
+                <Styled(ul)
+                  visible={false}
+                >
+                  <Styled(li)
+                    onClick={[Function]}
+                  >
+                    Edit
+                  </Styled(li)>
+                  <Styled(li)
+                    onClick={[Function]}
+                    style={
+                      {
+                        "color": "#E07C7C",
+                      }
+                    }
+                  >
+                    Delete
+                  </Styled(li)>
+                </Styled(ul)>
+              </Styled(div)>,
+            ],
+          },
+          "rendered": [
+            {
+              "instance": null,
+              "nodeType": "component",
+              "props": {
+                "cache": {
+                  "insert": [Function],
+                  "inserted": {
+                    "11rgiw7": true,
+                    "12dpu2n": true,
+                    "1j4k4u4": true,
+                    "d3svgb": true,
+                    "egh926": true,
+                    "xgmf6d": true,
+                  },
+                  "key": "css",
+                  "nonce": undefined,
+                  "registered": {},
+                  "sheet": StyleSheet {
+                    "_insertTag": [Function],
+                    "before": null,
+                    "container": undefined,
+                    "ctr": 0,
+                    "insertionPoint": undefined,
+                    "isSpeedy": false,
+                    "key": "css",
+                    "nonce": undefined,
+                    "prepend": undefined,
+                    "tags": [],
+                  },
+                },
+                "isStringTag": true,
+                "serialized": {
+                  "map": undefined,
+                  "name": "11rgiw7",
+                  "next": undefined,
+                  "styles": "
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 46px;
+  border-radius: 99rem;
+  column-gap: 1rem;
+",
+                  "toString": [Function],
+                },
+              },
+              "rendered": {
+                "instance": null,
+                "nodeType": "host",
+                "props": {
+                  "dangerouslySetInnerHTML": {
+                    "__html": ".css-11rgiw7{background-color:#fff;padding:0.5rem 1rem;box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;height:46px;border-radius:99rem;-webkit-column-gap:1rem;column-gap:1rem;}",
+                  },
+                  "data-emotion": "css 11rgiw7",
+                  "nonce": undefined,
+                },
+                "rendered": [],
+                "type": "style",
+              },
+              "type": [Function],
+            },
+            {
+              "instance": null,
+              "nodeType": "host",
+              "props": {
+                "children": [
+                  <Styled(div)
+                    checked={false}
+                    onClick={[Function]}
+                  >
+                    ✓
+                  </Styled(div)>,
+                  <Styled(span)
+                    completed={false}
+                    onClick={[Function]}
+                  >
+                    bar
+                  </Styled(span)>,
+                  <Styled(div)
+                    onClick={[Function]}
+                  >
+                    <ThreeDots />
+                    <Styled(ul)
+                      visible={false}
+                    >
+                      <Styled(li)
+                        onClick={[Function]}
+                      >
+                        Edit
+                      </Styled(li)>
+                      <Styled(li)
+                        onClick={[Function]}
+                        style={
+                          {
+                            "color": "#E07C7C",
+                          }
+                        }
+                      >
+                        Delete
+                      </Styled(li)>
+                    </Styled(ul)>
+                  </Styled(div)>,
+                ],
+                "className": "css-11rgiw7",
+              },
+              "rendered": [
+                {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": {
+                    "checked": false,
+                    "children": "✓",
+                    "onClick": [Function],
+                  },
+                  "rendered": [
+                    {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": {
+                        "cache": {
+                          "insert": [Function],
+                          "inserted": {
+                            "11rgiw7": true,
+                            "12dpu2n": true,
+                            "1j4k4u4": true,
+                            "d3svgb": true,
+                            "egh926": true,
+                            "xgmf6d": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": {},
+                          "sheet": StyleSheet {
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": undefined,
+                            "ctr": 0,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": [],
+                          },
+                        },
+                        "isStringTag": true,
+                        "serialized": {
+                          "map": undefined,
+                          "name": "1j4k4u4",
+                          "next": undefined,
+                          "styles": "
+  display: inline-block;
+	flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  background-color: transparent;
+  border: 2px solid #585292;
+  border-radius: 3px;
+	cursor: pointer;
+	color: transparent;
+  font-weight: bold;
+	line-height: 22px;
+  text-align: center;
+",
+                          "toString": [Function],
+                        },
+                      },
+                      "rendered": {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": {
+                          "dangerouslySetInnerHTML": {
+                            "__html": ".css-1j4k4u4{display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;width:22px;height:22px;background-color:transparent;border:2px solid #585292;border-radius:3px;cursor:pointer;color:transparent;font-weight:bold;line-height:22px;text-align:center;}",
+                          },
+                          "data-emotion": "css 1j4k4u4",
+                          "nonce": undefined,
+                        },
+                        "rendered": [],
+                        "type": "style",
+                      },
+                      "type": [Function],
+                    },
+                    {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": {
+                        "checked": false,
+                        "children": "✓",
+                        "className": "css-1j4k4u4",
+                        "onClick": [Function],
+                      },
+                      "rendered": [
+                        "✓",
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": [Function],
+                },
+                {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": {
+                    "children": "bar",
+                    "completed": false,
+                    "onClick": [Function],
+                  },
+                  "rendered": [
+                    {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": {
+                        "cache": {
+                          "insert": [Function],
+                          "inserted": {
+                            "11rgiw7": true,
+                            "12dpu2n": true,
+                            "1j4k4u4": true,
+                            "d3svgb": true,
+                            "egh926": true,
+                            "xgmf6d": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": {},
+                          "sheet": StyleSheet {
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": undefined,
+                            "ctr": 0,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": [],
+                          },
+                        },
+                        "isStringTag": true,
+                        "serialized": {
+                          "map": undefined,
+                          "name": "egh926",
+                          "next": undefined,
+                          "styles": "
+	flex-grow: 1;
+	cursor: pointer;
+	overflow-x: hidden;
+
+	;
+",
+                          "toString": [Function],
+                        },
+                      },
+                      "rendered": {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": {
+                          "dangerouslySetInnerHTML": {
+                            "__html": ".css-egh926{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;cursor:pointer;overflow-x:hidden;}",
+                          },
+                          "data-emotion": "css egh926",
+                          "nonce": undefined,
+                        },
+                        "rendered": [],
+                        "type": "style",
+                      },
+                      "type": [Function],
+                    },
+                    {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": {
+                        "children": "bar",
+                        "className": "css-egh926",
+                        "onClick": [Function],
+                      },
+                      "rendered": [
+                        "bar",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": [Function],
+                },
+                {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": {
+                    "children": [
+                      <ThreeDots />,
+                      <Styled(ul)
+                        visible={false}
+                      >
+                        <Styled(li)
+                          onClick={[Function]}
+                        >
+                          Edit
+                        </Styled(li)>
+                        <Styled(li)
+                          onClick={[Function]}
+                          style={
+                            {
+                              "color": "#E07C7C",
+                            }
+                          }
+                        >
+                          Delete
+                        </Styled(li)>
+                      </Styled(ul)>,
+                    ],
+                    "onClick": [Function],
+                  },
+                  "rendered": [
+                    {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": {
+                        "cache": {
+                          "insert": [Function],
+                          "inserted": {
+                            "11rgiw7": true,
+                            "12dpu2n": true,
+                            "1j4k4u4": true,
+                            "d3svgb": true,
+                            "egh926": true,
+                            "xgmf6d": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": {},
+                          "sheet": StyleSheet {
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": undefined,
+                            "ctr": 0,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": [],
+                          },
+                        },
+                        "isStringTag": true,
+                        "serialized": {
+                          "map": undefined,
+                          "name": "xgmf6d",
+                          "next": undefined,
+                          "styles": "
+  cursor: pointer;
+  position: relative;
+",
+                          "toString": [Function],
+                        },
+                      },
+                      "rendered": {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": {
+                          "dangerouslySetInnerHTML": {
+                            "__html": ".css-xgmf6d{cursor:pointer;position:relative;}",
+                          },
+                          "data-emotion": "css xgmf6d",
+                          "nonce": undefined,
+                        },
+                        "rendered": [],
+                        "type": "style",
+                      },
+                      "type": [Function],
+                    },
+                    {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": {
+                        "children": [
+                          <ThreeDots />,
+                          <Styled(ul)
+                            visible={false}
+                          >
+                            <Styled(li)
+                              onClick={[Function]}
+                            >
+                              Edit
+                            </Styled(li)>
+                            <Styled(li)
+                              onClick={[Function]}
+                              style={
+                                {
+                                  "color": "#E07C7C",
+                                }
+                              }
+                            >
+                              Delete
+                            </Styled(li)>
+                          </Styled(ul)>,
+                        ],
+                        "className": "css-xgmf6d",
+                        "onClick": [Function],
+                      },
+                      "rendered": [
+                        {
+                          "instance": null,
+                          "nodeType": "component",
+                          "props": {},
+                          "rendered": {
+                            "instance": null,
+                            "nodeType": "host",
+                            "props": {
+                              "children": [
+                                <circle
+                                  cx="2"
+                                  cy="2"
+                                  r="2"
+                                />,
+                                <circle
+                                  cx="9"
+                                  cy="2"
+                                  r="2"
+                                />,
+                                <circle
+                                  cx="16"
+                                  cy="2"
+                                  r="2"
+                                />,
+                              ],
+                              "fill": "currentColor",
+                              "height": "10",
+                              "viewBox": "0 0 18 4",
+                              "width": "18",
+                              "xmlns": "http://www.w3.org/2000/svg",
+                            },
+                            "rendered": [
+                              {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "cx": "2",
+                                  "cy": "2",
+                                  "r": "2",
+                                },
+                                "rendered": [],
+                                "type": "circle",
+                              },
+                              {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "cx": "9",
+                                  "cy": "2",
+                                  "r": "2",
+                                },
+                                "rendered": [],
+                                "type": "circle",
+                              },
+                              {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "cx": "16",
+                                  "cy": "2",
+                                  "r": "2",
+                                },
+                                "rendered": [],
+                                "type": "circle",
+                              },
+                            ],
+                            "type": "svg",
+                          },
+                          "type": [Function],
+                        },
+                        {
+                          "instance": null,
+                          "nodeType": "component",
+                          "props": {
+                            "children": [
+                              <Styled(li)
+                                onClick={[Function]}
+                              >
+                                Edit
+                              </Styled(li)>,
+                              <Styled(li)
+                                onClick={[Function]}
+                                style={
+                                  {
+                                    "color": "#E07C7C",
+                                  }
+                                }
+                              >
+                                Delete
+                              </Styled(li)>,
+                            ],
+                            "visible": false,
+                          },
+                          "rendered": [
+                            {
+                              "instance": null,
+                              "nodeType": "component",
+                              "props": {
+                                "cache": {
+                                  "insert": [Function],
+                                  "inserted": {
+                                    "11rgiw7": true,
+                                    "12dpu2n": true,
+                                    "1j4k4u4": true,
+                                    "d3svgb": true,
+                                    "egh926": true,
+                                    "xgmf6d": true,
+                                  },
+                                  "key": "css",
+                                  "nonce": undefined,
+                                  "registered": {},
+                                  "sheet": StyleSheet {
+                                    "_insertTag": [Function],
+                                    "before": null,
+                                    "container": undefined,
+                                    "ctr": 0,
+                                    "insertionPoint": undefined,
+                                    "isSpeedy": false,
+                                    "key": "css",
+                                    "nonce": undefined,
+                                    "prepend": undefined,
+                                    "tags": [],
+                                  },
+                                },
+                                "isStringTag": true,
+                                "serialized": {
+                                  "map": undefined,
+                                  "name": "d3svgb",
+                                  "next": undefined,
+                                  "styles": "
+	display: none;
+  position: absolute;
+  background-color: #fff;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  list-style: none;
+  right: 0;
+	width: 111px;
+	z-index: 1;
+",
+                                  "toString": [Function],
+                                },
+                              },
+                              "rendered": {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "dangerouslySetInnerHTML": {
+                                    "__html": ".css-d3svgb{display:none;position:absolute;background-color:#fff;box-shadow:0px 0px 8px rgba(0, 0, 0, 0.1);border-radius:0.5rem;padding:0.5rem 0;list-style:none;right:0;width:111px;z-index:1;}",
+                                  },
+                                  "data-emotion": "css d3svgb",
+                                  "nonce": undefined,
+                                },
+                                "rendered": [],
+                                "type": "style",
+                              },
+                              "type": [Function],
+                            },
+                            {
+                              "instance": null,
+                              "nodeType": "host",
+                              "props": {
+                                "children": [
+                                  <Styled(li)
+                                    onClick={[Function]}
+                                  >
+                                    Edit
+                                  </Styled(li)>,
+                                  <Styled(li)
+                                    onClick={[Function]}
+                                    style={
+                                      {
+                                        "color": "#E07C7C",
+                                      }
+                                    }
+                                  >
+                                    Delete
+                                  </Styled(li)>,
+                                ],
+                                "className": "css-d3svgb",
+                              },
+                              "rendered": [
+                                {
+                                  "instance": null,
+                                  "nodeType": "component",
+                                  "props": {
+                                    "children": "Edit",
+                                    "onClick": [Function],
+                                  },
+                                  "rendered": [
+                                    {
+                                      "instance": null,
+                                      "nodeType": "component",
+                                      "props": {
+                                        "cache": {
+                                          "insert": [Function],
+                                          "inserted": {
+                                            "11rgiw7": true,
+                                            "12dpu2n": true,
+                                            "1j4k4u4": true,
+                                            "d3svgb": true,
+                                            "egh926": true,
+                                            "xgmf6d": true,
+                                          },
+                                          "key": "css",
+                                          "nonce": undefined,
+                                          "registered": {},
+                                          "sheet": StyleSheet {
+                                            "_insertTag": [Function],
+                                            "before": null,
+                                            "container": undefined,
+                                            "ctr": 0,
+                                            "insertionPoint": undefined,
+                                            "isSpeedy": false,
+                                            "key": "css",
+                                            "nonce": undefined,
+                                            "prepend": undefined,
+                                            "tags": [],
+                                          },
+                                        },
+                                        "isStringTag": true,
+                                        "serialized": {
+                                          "map": undefined,
+                                          "name": "12dpu2n",
+                                          "next": undefined,
+                                          "styles": "
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+	font-size: 14px;
+	line-height: 16px;
+  cursor: pointer;
+",
+                                          "toString": [Function],
+                                        },
+                                      },
+                                      "rendered": {
+                                        "instance": null,
+                                        "nodeType": "host",
+                                        "props": {
+                                          "dangerouslySetInnerHTML": {
+                                            "__html": ".css-12dpu2n{padding:0.5rem 1rem;border-radius:0.5rem;font-size:14px;line-height:16px;cursor:pointer;}",
+                                          },
+                                          "data-emotion": "css 12dpu2n",
+                                          "nonce": undefined,
+                                        },
+                                        "rendered": [],
+                                        "type": "style",
+                                      },
+                                      "type": [Function],
+                                    },
+                                    {
+                                      "instance": null,
+                                      "nodeType": "host",
+                                      "props": {
+                                        "children": "Edit",
+                                        "className": "css-12dpu2n",
+                                        "onClick": [Function],
+                                      },
+                                      "rendered": [
+                                        "Edit",
+                                      ],
+                                      "type": "li",
+                                    },
+                                  ],
+                                  "type": [Function],
+                                },
+                                {
+                                  "instance": null,
+                                  "nodeType": "component",
+                                  "props": {
+                                    "children": "Delete",
+                                    "onClick": [Function],
+                                    "style": {
+                                      "color": "#E07C7C",
+                                    },
+                                  },
+                                  "rendered": [
+                                    {
+                                      "instance": null,
+                                      "nodeType": "component",
+                                      "props": {
+                                        "cache": {
+                                          "insert": [Function],
+                                          "inserted": {
+                                            "11rgiw7": true,
+                                            "12dpu2n": true,
+                                            "1j4k4u4": true,
+                                            "d3svgb": true,
+                                            "egh926": true,
+                                            "xgmf6d": true,
+                                          },
+                                          "key": "css",
+                                          "nonce": undefined,
+                                          "registered": {},
+                                          "sheet": StyleSheet {
+                                            "_insertTag": [Function],
+                                            "before": null,
+                                            "container": undefined,
+                                            "ctr": 0,
+                                            "insertionPoint": undefined,
+                                            "isSpeedy": false,
+                                            "key": "css",
+                                            "nonce": undefined,
+                                            "prepend": undefined,
+                                            "tags": [],
+                                          },
+                                        },
+                                        "isStringTag": true,
+                                        "serialized": {
+                                          "map": undefined,
+                                          "name": "12dpu2n",
+                                          "next": undefined,
+                                          "styles": "
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+	font-size: 14px;
+	line-height: 16px;
+  cursor: pointer;
+",
+                                          "toString": [Function],
+                                        },
+                                      },
+                                      "rendered": null,
+                                      "type": [Function],
+                                    },
+                                    {
+                                      "instance": null,
+                                      "nodeType": "host",
+                                      "props": {
+                                        "children": "Delete",
+                                        "className": "css-12dpu2n",
+                                        "onClick": [Function],
+                                        "style": {
+                                          "color": "#E07C7C",
+                                        },
+                                      },
+                                      "rendered": [
+                                        "Delete",
+                                      ],
+                                      "type": "li",
+                                    },
+                                  ],
+                                  "type": [Function],
+                                },
+                              ],
+                              "type": "ul",
+                            },
+                          ],
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;
+
+exports[`test TodoItem 2`] = `
+{
+  "instance": null,
+  "nodeType": "component",
+  "props": {
+    "children": <TodoItem
+      todo={
+        {
+          "completed": false,
+          "id": "foo",
+          "title": "bar",
+        }
+      }
+    />,
+    "todo": {
+      "completed": true,
+      "id": "test id",
+      "title": "test title",
+    },
+  },
+  "rendered": {
+    "instance": null,
+    "nodeType": "component",
+    "props": {
+      "children": <TodoItem
+        todo={
+          {
+            "completed": false,
+            "id": "foo",
+            "title": "bar",
+          }
+        }
+      />,
+    },
+    "rendered": [
+      {
+        "instance": null,
+        "nodeType": "component",
+        "props": {
+          "setNotifyBatcherOfChange": [Function],
+        },
+        "rendered": null,
+        "type": [Function],
+      },
+      {
+        "instance": null,
+        "nodeType": "component",
+        "props": {
+          "todo": {
+            "completed": false,
+            "id": "foo",
+            "title": "bar",
+          },
+        },
+        "rendered": {
+          "instance": null,
+          "nodeType": "component",
+          "props": {
+            "children": [
+              <Styled(div)
+                checked={false}
+                onClick={[Function]}
+              >
+                ✓
+              </Styled(div)>,
+              <Styled(span)
+                completed={false}
+                onClick={[Function]}
+              >
+                bar
+              </Styled(span)>,
+              <Styled(div)
+                onClick={[Function]}
+              >
+                <ThreeDots />
+                <Styled(ul)
+                  visible={false}
+                >
+                  <Styled(li)
+                    onClick={[Function]}
+                  >
+                    Edit
+                  </Styled(li)>
+                  <Styled(li)
+                    onClick={[Function]}
+                    style={
+                      {
+                        "color": "#E07C7C",
+                      }
+                    }
+                  >
+                    Delete
+                  </Styled(li)>
+                </Styled(ul)>
+              </Styled(div)>,
+            ],
+          },
+          "rendered": [
+            {
+              "instance": null,
+              "nodeType": "component",
+              "props": {
+                "cache": {
+                  "insert": [Function],
+                  "inserted": {
+                    "11rgiw7": true,
+                    "12dpu2n": true,
+                    "1j4k4u4": true,
+                    "d3svgb": true,
+                    "egh926": true,
+                    "xgmf6d": true,
+                  },
+                  "key": "css",
+                  "nonce": undefined,
+                  "registered": {},
+                  "sheet": StyleSheet {
+                    "_insertTag": [Function],
+                    "before": null,
+                    "container": undefined,
+                    "ctr": 0,
+                    "insertionPoint": undefined,
+                    "isSpeedy": false,
+                    "key": "css",
+                    "nonce": undefined,
+                    "prepend": undefined,
+                    "tags": [],
+                  },
+                },
+                "isStringTag": true,
+                "serialized": {
+                  "map": undefined,
+                  "name": "11rgiw7",
+                  "next": undefined,
+                  "styles": "
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 46px;
+  border-radius: 99rem;
+  column-gap: 1rem;
+",
+                  "toString": [Function],
+                },
+              },
+              "rendered": {
+                "instance": null,
+                "nodeType": "host",
+                "props": {
+                  "dangerouslySetInnerHTML": {
+                    "__html": ".css-11rgiw7{background-color:#fff;padding:0.5rem 1rem;box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;height:46px;border-radius:99rem;-webkit-column-gap:1rem;column-gap:1rem;}",
+                  },
+                  "data-emotion": "css 11rgiw7",
+                  "nonce": undefined,
+                },
+                "rendered": [],
+                "type": "style",
+              },
+              "type": [Function],
+            },
+            {
+              "instance": null,
+              "nodeType": "host",
+              "props": {
+                "children": [
+                  <Styled(div)
+                    checked={false}
+                    onClick={[Function]}
+                  >
+                    ✓
+                  </Styled(div)>,
+                  <Styled(span)
+                    completed={false}
+                    onClick={[Function]}
+                  >
+                    bar
+                  </Styled(span)>,
+                  <Styled(div)
+                    onClick={[Function]}
+                  >
+                    <ThreeDots />
+                    <Styled(ul)
+                      visible={false}
+                    >
+                      <Styled(li)
+                        onClick={[Function]}
+                      >
+                        Edit
+                      </Styled(li)>
+                      <Styled(li)
+                        onClick={[Function]}
+                        style={
+                          {
+                            "color": "#E07C7C",
+                          }
+                        }
+                      >
+                        Delete
+                      </Styled(li)>
+                    </Styled(ul)>
+                  </Styled(div)>,
+                ],
+                "className": "css-11rgiw7",
+              },
+              "rendered": [
+                {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": {
+                    "checked": false,
+                    "children": "✓",
+                    "onClick": [Function],
+                  },
+                  "rendered": [
+                    {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": {
+                        "cache": {
+                          "insert": [Function],
+                          "inserted": {
+                            "11rgiw7": true,
+                            "12dpu2n": true,
+                            "1j4k4u4": true,
+                            "d3svgb": true,
+                            "egh926": true,
+                            "xgmf6d": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": {},
+                          "sheet": StyleSheet {
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": undefined,
+                            "ctr": 0,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": [],
+                          },
+                        },
+                        "isStringTag": true,
+                        "serialized": {
+                          "map": undefined,
+                          "name": "1j4k4u4",
+                          "next": undefined,
+                          "styles": "
+  display: inline-block;
+	flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  background-color: transparent;
+  border: 2px solid #585292;
+  border-radius: 3px;
+	cursor: pointer;
+	color: transparent;
+  font-weight: bold;
+	line-height: 22px;
+  text-align: center;
+",
+                          "toString": [Function],
+                        },
+                      },
+                      "rendered": {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": {
+                          "dangerouslySetInnerHTML": {
+                            "__html": ".css-1j4k4u4{display:inline-block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;width:22px;height:22px;background-color:transparent;border:2px solid #585292;border-radius:3px;cursor:pointer;color:transparent;font-weight:bold;line-height:22px;text-align:center;}",
+                          },
+                          "data-emotion": "css 1j4k4u4",
+                          "nonce": undefined,
+                        },
+                        "rendered": [],
+                        "type": "style",
+                      },
+                      "type": [Function],
+                    },
+                    {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": {
+                        "checked": false,
+                        "children": "✓",
+                        "className": "css-1j4k4u4",
+                        "onClick": [Function],
+                      },
+                      "rendered": [
+                        "✓",
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": [Function],
+                },
+                {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": {
+                    "children": "bar",
+                    "completed": false,
+                    "onClick": [Function],
+                  },
+                  "rendered": [
+                    {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": {
+                        "cache": {
+                          "insert": [Function],
+                          "inserted": {
+                            "11rgiw7": true,
+                            "12dpu2n": true,
+                            "1j4k4u4": true,
+                            "d3svgb": true,
+                            "egh926": true,
+                            "xgmf6d": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": {},
+                          "sheet": StyleSheet {
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": undefined,
+                            "ctr": 0,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": [],
+                          },
+                        },
+                        "isStringTag": true,
+                        "serialized": {
+                          "map": undefined,
+                          "name": "egh926",
+                          "next": undefined,
+                          "styles": "
+	flex-grow: 1;
+	cursor: pointer;
+	overflow-x: hidden;
+
+	;
+",
+                          "toString": [Function],
+                        },
+                      },
+                      "rendered": {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": {
+                          "dangerouslySetInnerHTML": {
+                            "__html": ".css-egh926{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;cursor:pointer;overflow-x:hidden;}",
+                          },
+                          "data-emotion": "css egh926",
+                          "nonce": undefined,
+                        },
+                        "rendered": [],
+                        "type": "style",
+                      },
+                      "type": [Function],
+                    },
+                    {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": {
+                        "children": "bar",
+                        "className": "css-egh926",
+                        "onClick": [Function],
+                      },
+                      "rendered": [
+                        "bar",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": [Function],
+                },
+                {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": {
+                    "children": [
+                      <ThreeDots />,
+                      <Styled(ul)
+                        visible={false}
+                      >
+                        <Styled(li)
+                          onClick={[Function]}
+                        >
+                          Edit
+                        </Styled(li)>
+                        <Styled(li)
+                          onClick={[Function]}
+                          style={
+                            {
+                              "color": "#E07C7C",
+                            }
+                          }
+                        >
+                          Delete
+                        </Styled(li)>
+                      </Styled(ul)>,
+                    ],
+                    "onClick": [Function],
+                  },
+                  "rendered": [
+                    {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": {
+                        "cache": {
+                          "insert": [Function],
+                          "inserted": {
+                            "11rgiw7": true,
+                            "12dpu2n": true,
+                            "1j4k4u4": true,
+                            "d3svgb": true,
+                            "egh926": true,
+                            "xgmf6d": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": {},
+                          "sheet": StyleSheet {
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": undefined,
+                            "ctr": 0,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": [],
+                          },
+                        },
+                        "isStringTag": true,
+                        "serialized": {
+                          "map": undefined,
+                          "name": "xgmf6d",
+                          "next": undefined,
+                          "styles": "
+  cursor: pointer;
+  position: relative;
+",
+                          "toString": [Function],
+                        },
+                      },
+                      "rendered": {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": {
+                          "dangerouslySetInnerHTML": {
+                            "__html": ".css-xgmf6d{cursor:pointer;position:relative;}",
+                          },
+                          "data-emotion": "css xgmf6d",
+                          "nonce": undefined,
+                        },
+                        "rendered": [],
+                        "type": "style",
+                      },
+                      "type": [Function],
+                    },
+                    {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": {
+                        "children": [
+                          <ThreeDots />,
+                          <Styled(ul)
+                            visible={false}
+                          >
+                            <Styled(li)
+                              onClick={[Function]}
+                            >
+                              Edit
+                            </Styled(li)>
+                            <Styled(li)
+                              onClick={[Function]}
+                              style={
+                                {
+                                  "color": "#E07C7C",
+                                }
+                              }
+                            >
+                              Delete
+                            </Styled(li)>
+                          </Styled(ul)>,
+                        ],
+                        "className": "css-xgmf6d",
+                        "onClick": [Function],
+                      },
+                      "rendered": [
+                        {
+                          "instance": null,
+                          "nodeType": "component",
+                          "props": {},
+                          "rendered": {
+                            "instance": null,
+                            "nodeType": "host",
+                            "props": {
+                              "children": [
+                                <circle
+                                  cx="2"
+                                  cy="2"
+                                  r="2"
+                                />,
+                                <circle
+                                  cx="9"
+                                  cy="2"
+                                  r="2"
+                                />,
+                                <circle
+                                  cx="16"
+                                  cy="2"
+                                  r="2"
+                                />,
+                              ],
+                              "fill": "currentColor",
+                              "height": "10",
+                              "viewBox": "0 0 18 4",
+                              "width": "18",
+                              "xmlns": "http://www.w3.org/2000/svg",
+                            },
+                            "rendered": [
+                              {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "cx": "2",
+                                  "cy": "2",
+                                  "r": "2",
+                                },
+                                "rendered": [],
+                                "type": "circle",
+                              },
+                              {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "cx": "9",
+                                  "cy": "2",
+                                  "r": "2",
+                                },
+                                "rendered": [],
+                                "type": "circle",
+                              },
+                              {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "cx": "16",
+                                  "cy": "2",
+                                  "r": "2",
+                                },
+                                "rendered": [],
+                                "type": "circle",
+                              },
+                            ],
+                            "type": "svg",
+                          },
+                          "type": [Function],
+                        },
+                        {
+                          "instance": null,
+                          "nodeType": "component",
+                          "props": {
+                            "children": [
+                              <Styled(li)
+                                onClick={[Function]}
+                              >
+                                Edit
+                              </Styled(li)>,
+                              <Styled(li)
+                                onClick={[Function]}
+                                style={
+                                  {
+                                    "color": "#E07C7C",
+                                  }
+                                }
+                              >
+                                Delete
+                              </Styled(li)>,
+                            ],
+                            "visible": false,
+                          },
+                          "rendered": [
+                            {
+                              "instance": null,
+                              "nodeType": "component",
+                              "props": {
+                                "cache": {
+                                  "insert": [Function],
+                                  "inserted": {
+                                    "11rgiw7": true,
+                                    "12dpu2n": true,
+                                    "1j4k4u4": true,
+                                    "d3svgb": true,
+                                    "egh926": true,
+                                    "xgmf6d": true,
+                                  },
+                                  "key": "css",
+                                  "nonce": undefined,
+                                  "registered": {},
+                                  "sheet": StyleSheet {
+                                    "_insertTag": [Function],
+                                    "before": null,
+                                    "container": undefined,
+                                    "ctr": 0,
+                                    "insertionPoint": undefined,
+                                    "isSpeedy": false,
+                                    "key": "css",
+                                    "nonce": undefined,
+                                    "prepend": undefined,
+                                    "tags": [],
+                                  },
+                                },
+                                "isStringTag": true,
+                                "serialized": {
+                                  "map": undefined,
+                                  "name": "d3svgb",
+                                  "next": undefined,
+                                  "styles": "
+	display: none;
+  position: absolute;
+  background-color: #fff;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  list-style: none;
+  right: 0;
+	width: 111px;
+	z-index: 1;
+",
+                                  "toString": [Function],
+                                },
+                              },
+                              "rendered": {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": {
+                                  "dangerouslySetInnerHTML": {
+                                    "__html": ".css-d3svgb{display:none;position:absolute;background-color:#fff;box-shadow:0px 0px 8px rgba(0, 0, 0, 0.1);border-radius:0.5rem;padding:0.5rem 0;list-style:none;right:0;width:111px;z-index:1;}",
+                                  },
+                                  "data-emotion": "css d3svgb",
+                                  "nonce": undefined,
+                                },
+                                "rendered": [],
+                                "type": "style",
+                              },
+                              "type": [Function],
+                            },
+                            {
+                              "instance": null,
+                              "nodeType": "host",
+                              "props": {
+                                "children": [
+                                  <Styled(li)
+                                    onClick={[Function]}
+                                  >
+                                    Edit
+                                  </Styled(li)>,
+                                  <Styled(li)
+                                    onClick={[Function]}
+                                    style={
+                                      {
+                                        "color": "#E07C7C",
+                                      }
+                                    }
+                                  >
+                                    Delete
+                                  </Styled(li)>,
+                                ],
+                                "className": "css-d3svgb",
+                              },
+                              "rendered": [
+                                {
+                                  "instance": null,
+                                  "nodeType": "component",
+                                  "props": {
+                                    "children": "Edit",
+                                    "onClick": [Function],
+                                  },
+                                  "rendered": [
+                                    {
+                                      "instance": null,
+                                      "nodeType": "component",
+                                      "props": {
+                                        "cache": {
+                                          "insert": [Function],
+                                          "inserted": {
+                                            "11rgiw7": true,
+                                            "12dpu2n": true,
+                                            "1j4k4u4": true,
+                                            "d3svgb": true,
+                                            "egh926": true,
+                                            "xgmf6d": true,
+                                          },
+                                          "key": "css",
+                                          "nonce": undefined,
+                                          "registered": {},
+                                          "sheet": StyleSheet {
+                                            "_insertTag": [Function],
+                                            "before": null,
+                                            "container": undefined,
+                                            "ctr": 0,
+                                            "insertionPoint": undefined,
+                                            "isSpeedy": false,
+                                            "key": "css",
+                                            "nonce": undefined,
+                                            "prepend": undefined,
+                                            "tags": [],
+                                          },
+                                        },
+                                        "isStringTag": true,
+                                        "serialized": {
+                                          "map": undefined,
+                                          "name": "12dpu2n",
+                                          "next": undefined,
+                                          "styles": "
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+	font-size: 14px;
+	line-height: 16px;
+  cursor: pointer;
+",
+                                          "toString": [Function],
+                                        },
+                                      },
+                                      "rendered": {
+                                        "instance": null,
+                                        "nodeType": "host",
+                                        "props": {
+                                          "dangerouslySetInnerHTML": {
+                                            "__html": ".css-12dpu2n{padding:0.5rem 1rem;border-radius:0.5rem;font-size:14px;line-height:16px;cursor:pointer;}",
+                                          },
+                                          "data-emotion": "css 12dpu2n",
+                                          "nonce": undefined,
+                                        },
+                                        "rendered": [],
+                                        "type": "style",
+                                      },
+                                      "type": [Function],
+                                    },
+                                    {
+                                      "instance": null,
+                                      "nodeType": "host",
+                                      "props": {
+                                        "children": "Edit",
+                                        "className": "css-12dpu2n",
+                                        "onClick": [Function],
+                                      },
+                                      "rendered": [
+                                        "Edit",
+                                      ],
+                                      "type": "li",
+                                    },
+                                  ],
+                                  "type": [Function],
+                                },
+                                {
+                                  "instance": null,
+                                  "nodeType": "component",
+                                  "props": {
+                                    "children": "Delete",
+                                    "onClick": [Function],
+                                    "style": {
+                                      "color": "#E07C7C",
+                                    },
+                                  },
+                                  "rendered": [
+                                    {
+                                      "instance": null,
+                                      "nodeType": "component",
+                                      "props": {
+                                        "cache": {
+                                          "insert": [Function],
+                                          "inserted": {
+                                            "11rgiw7": true,
+                                            "12dpu2n": true,
+                                            "1j4k4u4": true,
+                                            "d3svgb": true,
+                                            "egh926": true,
+                                            "xgmf6d": true,
+                                          },
+                                          "key": "css",
+                                          "nonce": undefined,
+                                          "registered": {},
+                                          "sheet": StyleSheet {
+                                            "_insertTag": [Function],
+                                            "before": null,
+                                            "container": undefined,
+                                            "ctr": 0,
+                                            "insertionPoint": undefined,
+                                            "isSpeedy": false,
+                                            "key": "css",
+                                            "nonce": undefined,
+                                            "prepend": undefined,
+                                            "tags": [],
+                                          },
+                                        },
+                                        "isStringTag": true,
+                                        "serialized": {
+                                          "map": undefined,
+                                          "name": "12dpu2n",
+                                          "next": undefined,
+                                          "styles": "
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+	font-size: 14px;
+	line-height: 16px;
+  cursor: pointer;
+",
+                                          "toString": [Function],
+                                        },
+                                      },
+                                      "rendered": null,
+                                      "type": [Function],
+                                    },
+                                    {
+                                      "instance": null,
+                                      "nodeType": "host",
+                                      "props": {
+                                        "children": "Delete",
+                                        "className": "css-12dpu2n",
+                                        "onClick": [Function],
+                                        "style": {
+                                          "color": "#E07C7C",
+                                        },
+                                      },
+                                      "rendered": [
+                                        "Delete",
+                                      ],
+                                      "type": "li",
+                                    },
+                                  ],
+                                  "type": [Function],
+                                },
+                              ],
+                              "type": "ul",
+                            },
+                          ],
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;
