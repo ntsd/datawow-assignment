@@ -9,7 +9,7 @@ const CustomCheckbox = styled.div<{ checked: boolean }>`
   border: 2px solid #585292;
   border-radius: 3px;
 	cursor: pointer;
-	color: ${({ checked }) => (checked ? "#ffffff" : "transparent")};
+	color: ${({ checked }) => (checked ? "#fff" : "transparent")};
   font-weight: bold;
 	line-height: 22px;
   text-align: center;

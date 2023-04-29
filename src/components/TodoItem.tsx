@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "@emotion/styled";
 import { type Todo } from "../types";
 import { useTodos } from "../hooks/useTodos";
-import CustomCheckbox from "./CustomCheckbox";
+import Checkbox from "../styles/Checkbox";
 import TodoItemContainer from "../styles/TodoItemContainer";
 import TodoInput from "../styles/TodoInput";
 import ThreeDots from "./icons/ThreeDots";
@@ -100,10 +100,10 @@ const TodoItem: React.FC<{ todo: Todo }> = ({ todo }) => {
 				</TodoItemContainer>
 			) : (
 				<TodoItemContainer>
-					<CustomCheckbox
+					<Checkbox
 						checked={todo.completed}
 						onClick={handleToggle}
-					>✓</CustomCheckbox>
+					>✓</Checkbox>
 					<Title onClick={handleToggle} completed={todo.completed}>{todo.title}</Title>
 					<ThreeDotMenu onClick={toggleMenu}>
 						<ThreeDots />

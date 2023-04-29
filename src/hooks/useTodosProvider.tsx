@@ -4,10 +4,10 @@ import { todosState } from "../states/todos";
 import api from "../api/api";
 
 const UseTodosProvider: React.FC<PropsWithChildren> = ({ children }) => {
-	const [_, setTodos] = useRecoilState(todosState);
+	const [, setTodos] = useRecoilState(todosState);
 
 	useEffect(() => {
-		api.get("/").then((resp) => {
+		api.getAllTodos().then((resp) => {
 			setTodos(resp.data);
 		})
 	}, [setTodos]);
